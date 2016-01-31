@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vpspace.smartdiary" >
+
+    <application
+        android:allowBackup="true"
+
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/marks" android:name=".MarksActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/algebra" android:name=".AlgebraActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/geometry" android:name=".GeometryActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PhysicsActivity" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="0dp"
+    android:weightSum="1"
+    android:background="@drawable/bg">
+    
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTextT2"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_weight="0.21" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/btnSaveT"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/plus"
+            android:background="@drawable/myb_bg"
+            android:layout_weight="0.15">
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/btnLoadT"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/cross"
+            android:background="@drawable/myb_bg"
+            android:layout_weight="0.15">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTextT"
+        android:textSize="20sp"
+        android:layout_weight="0.07"/>
+
+
+</LinearLayout>

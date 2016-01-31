@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anandroid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="0dp"
+    android:weightSum="1"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/algebra"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@color/color1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Текущие"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/color2"
+        android:id="@+id/textView7"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvText2"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTextC"
+        android:textColor="@color/color1"
+        android:textSize="25sp"
+        android:layout_weight="0.07"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvText"
+        android:textSize="20sp"
+        android:layout_weight="0.07"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Добавить"
+            android:background="@drawable/myb_bg">
+        </Button>
+
+        <Button
+            android:id="@+id/btnSaveC"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Добавить"
+            android:background="@drawable/myb_bg">
+        </Button>
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Очистить"
+            android:layout_weight="1"
+            android:background="@drawable/myb_bg">
+        </Button>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тематические"
+        android:gravity="bottom|center"
+        android:textSize="20sp"
+        android:textColor="@color/color2"
+        android:id="@+id/textView3"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTextT2"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_weight="0.21" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTextT"
+        android:textSize="20sp"
+        android:layout_weight="0.07"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSaveT"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Добавить"
+            android:layout_weight="1"
+            android:background="@drawable/myb_bg">
+        </Button>
+        <Button
+            android:id="@+id/btnLoadT"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Очистить"
+            android:layout_weight="1"
+            android:background="@drawable/myb_bg">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

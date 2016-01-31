@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/algebra"
+            android:text="@string/algebra"
+            android:gravity="center_vertical"
+            android:textSize="25dp"
+            android:onClick="goAlgebraActivity" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/geometry"
+            android:text="@string/geometry"
+            android:gravity="center_vertical"
+            android:textSize="25dp"
+            android:onClick="goGeometryActivity" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/phisic"
+            android:text="@string/physics"
+            android:gravity="center_vertical"
+            android:textSize="25dp"
+            android:onClick="goPhysicsActivity" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/chiemistry"
+            android:text="@string/chemistry"
+            android:gravity="center_vertical"
+            android:textSize="25dp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/biology"
+            android:text="@string/biology"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/geography"
+            android:text="@string/geography"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/economy"
+            android:text="@string/economy"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/ukr_mova"
+            android:text="@string/ukrMova"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/ukr_lit"
+            android:text="@string/ukrLit"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/english"
+            android:text="@string/english"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/deutsch"
+            android:text="@string/german"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/foreign"
+            android:text="@string/foreign"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/world_history"
+            android:text="@string/worldHistory"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/ukr_history"
+            android:text="@string/ukrHistory"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/right"
+            android:text="@string/right"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/national_defense"
+            android:text="@string/nationalDefense"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/computer_science"
+            android:text="@string/computerScience"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/pe"
+            android:text="@string/pe"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/rus_language"
+            android:text="@string/rusLanguage"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/art_culture"
+            android:text="@string/artCulture"
+            android:gravity="center_vertical"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:drawableLeft="@drawable/technologies"
+            android:text="@string/technologies"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

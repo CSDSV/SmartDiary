@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Smart Diary</string>
+    <string name="algebra"> Алгебра</string>
+    <string name="geometry"> Геометрия</string>
+    <string name="physics"> Физика</string>
+    <string name="chemistry"> Химия</string>
+    <string name="biology"> Биология</string>
+    <string name="geography"> География</string>
+    <string name="economy"> Экономика</string>
+    <string name="ukrMova"> Українська мова</string>
+    <string name="ukrLit"> Українська література</string>
+    <string name="english"> English</string>
+    <string name="german"> Deutch</string>
+    <string name="foreign"> Зарубежная литература</string>
+    <string name="worldHistory"> Всемирная история</string>
+    <string name="ukrHistory">История Украины</string>
+    <string name="right"> Право</string>
+    <string name="nationalDefense"> Захист Вітчизни</string>
+    <string name="computerScience"> Информатика</string>
+    <string name="pe"> Физкультура</string>
+    <string name="rusLanguage"> Русский язкы</string>
+    <string name="artCulture"> Художественная культура</string>
+    <string name="technologies"> Технологии</string>
+
+    <string name="action_delete_all">Очистить все текущие</string>
+    <string name="action_delete_all_t">Очистить все тематические</string>
+    <string name="input_marks">Добавить в таблицу</string>
+    <string name="input_marks_t">Добавить среднюю тематичесую</string>
+
+    <string name="marks">Таблица</string>
+
+</resources>
